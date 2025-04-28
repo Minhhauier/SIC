@@ -13,10 +13,12 @@ int tru(int a,int b,int c)
 	return a-b-c; 
 }
 int main(){
-	int tong= cong(3,4,5);
-	long tich= nhan(2,3,4);
-	int hieu=tru(6,2,1);
-	cout<<tong<<endl;
-	cout<<hieu<<endl;
-	cout<<tich<<endl;
+	int a,b,c;
+	cout<<"Nhap a,b,c: ";cin>>a>>b>>c;
+	int tong= cong(a,b,c);
+	long tich= nhan(a,b,c);
+	int hieu=tru(a,b,c);
+	cout<<"Tong: "<<tong<<endl;
+	cout<<"Hieu: "<<hieu<<endl;
+	cout<<"Tich: "<<tich<<endl;
 }
